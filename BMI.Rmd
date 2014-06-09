@@ -1,0 +1,22 @@
+Body Mass Index
+========================================================
+Petite application pour calculer le BMI:
+
+$BMI = Poids / taille^2$
+
+Le poids peut être explrimé en kg ou en livres.
+
+
+    Underweight = <18.5
+    Normal weight = 18.5–24.9
+    Overweight = 25–29.9
+    Obesity = BMI of 30 or greater
+
+Référence: [NIH](http://www.nhlbi.nih.gov/guidelines/obesity/BMI/bmi-m.htm)
+
+Pour lancer l'application:
+```{}
+library(shiny)
+runApp()
+```
+
